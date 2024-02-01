@@ -1,4 +1,4 @@
-package com.unir.exampledfc.Search.entity;
+package com.unir.exampledfc.search.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -20,4 +20,5 @@ public class Author {
 
     @OneToMany(mappedBy = "author", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Book> books;
+
 }

@@ -1,8 +1,8 @@
-package com.unir.exampledfc.Search.service;
+package com.unir.exampledfc.search.service;
 
 
-import com.unir.exampledfc.Search.entity.Author;
-import com.unir.exampledfc.Search.repository.AuthorRepository;
+import com.unir.exampledfc.search.entity.Author;
+import com.unir.exampledfc.search.repository.AuthorRepository;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 

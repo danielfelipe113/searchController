@@ -1,9 +1,9 @@
-package com.unir.exampledfc.Search.service;
+package com.unir.exampledfc.search.service;
 
-import com.unir.exampledfc.Search.entity.Book;
-import com.unir.exampledfc.Search.entity.Critic;
-import com.unir.exampledfc.Search.repository.BookRepository;
-import com.unir.exampledfc.Search.repository.CriticRepository;
+import com.unir.exampledfc.search.entity.Book;
+import com.unir.exampledfc.search.entity.Critic;
+import com.unir.exampledfc.search.repository.BookRepository;
+import com.unir.exampledfc.search.repository.CriticRepository;
 import org.springdoc.api.OpenApiResourceNotFoundException;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;

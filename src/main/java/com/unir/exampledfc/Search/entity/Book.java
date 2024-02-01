@@ -1,8 +1,8 @@
-package com.unir.exampledfc.Search.entity;
+package com.unir.exampledfc.search.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.unir.exampledfc.Search.dto.BookCreateDTO;
+import com.unir.exampledfc.search.dto.BookCreateDTO;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,12 +1,12 @@
-package com.unir.exampledfc.Search.service;
+package com.unir.exampledfc.search.service;
 
 
-import com.unir.exampledfc.Search.dto.BookCreateDTO;
-import com.unir.exampledfc.Search.entity.Author;
-import com.unir.exampledfc.Search.entity.Book;
-import com.unir.exampledfc.Search.entity.BookSpecification;
-import com.unir.exampledfc.Search.repository.AuthorRepository;
-import com.unir.exampledfc.Search.repository.BookRepository;
+import com.unir.exampledfc.search.dto.BookCreateDTO;
+import com.unir.exampledfc.search.entity.Author;
+import com.unir.exampledfc.search.entity.Book;
+import com.unir.exampledfc.search.entity.BookSpecification;
+import com.unir.exampledfc.search.repository.AuthorRepository;
+import com.unir.exampledfc.search.repository.BookRepository;
 import org.springdoc.api.OpenApiResourceNotFoundException;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.http.ResponseEntity;

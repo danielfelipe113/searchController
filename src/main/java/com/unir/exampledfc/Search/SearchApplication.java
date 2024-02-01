@@ -1,6 +1,6 @@
-package com.unir.exampledfc.Search;
+package com.unir.exampledfc.search;
 
-import com.unir.exampledfc.Search.service.DatabaseSeeder;
+import com.unir.exampledfc.search.service.DatabaseSeeder;
 import jakarta.annotation.PostConstruct;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

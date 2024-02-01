@@ -1,4 +1,4 @@
-package com.unir.exampledfc.Search.entity;
+package com.unir.exampledfc.search.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;

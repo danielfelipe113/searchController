@@ -1,6 +1,6 @@
-package com.unir.exampledfc.Search.repository;
+package com.unir.exampledfc.search.repository;
 
-import com.unir.exampledfc.Search.entity.Critic;
+import com.unir.exampledfc.search.entity.Critic;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 

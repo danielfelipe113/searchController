@@ -1,13 +1,15 @@
-package com.unir.exampledfc.Search.controller;
+package com.unir.exampledfc.search.controller;
 
-import com.unir.exampledfc.Search.entity.Author;
-import com.unir.exampledfc.Search.service.AuthorService;
+import com.unir.exampledfc.search.entity.Author;
+import com.unir.exampledfc.search.service.AuthorService;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
+@Tag(name = "Author Controller", description = "Author Controller Endpoints")
 @RequestMapping("/author")
 public class AuthorController {
     private final AuthorService authorService;

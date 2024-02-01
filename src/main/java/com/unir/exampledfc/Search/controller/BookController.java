@@ -1,8 +1,9 @@
-package com.unir.exampledfc.Search.controller;
+package com.unir.exampledfc.search.controller;
 
-import com.unir.exampledfc.Search.dto.BookCreateDTO;
-import com.unir.exampledfc.Search.entity.Book;
-import com.unir.exampledfc.Search.service.BookService;
+import com.unir.exampledfc.search.dto.BookCreateDTO;
+import com.unir.exampledfc.search.entity.Book;
+import com.unir.exampledfc.search.service.BookService;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -10,6 +11,7 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
+@Tag(name = "Book Controller", description = "Book Controller Endpoints")
 @RequestMapping("/book")
 public class BookController {
     private final BookService bookService;

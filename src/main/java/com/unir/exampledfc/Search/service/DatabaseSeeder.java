@@ -1,11 +1,11 @@
-package com.unir.exampledfc.Search.service;
+package com.unir.exampledfc.search.service;
 
-import com.unir.exampledfc.Search.entity.Author;
-import com.unir.exampledfc.Search.entity.Book;
-import com.unir.exampledfc.Search.entity.Critic;
-import com.unir.exampledfc.Search.repository.AuthorRepository;
-import com.unir.exampledfc.Search.repository.BookRepository;
-import com.unir.exampledfc.Search.repository.CriticRepository;
+import com.unir.exampledfc.search.entity.Author;
+import com.unir.exampledfc.search.entity.Book;
+import com.unir.exampledfc.search.entity.Critic;
+import com.unir.exampledfc.search.repository.AuthorRepository;
+import com.unir.exampledfc.search.repository.BookRepository;
+import com.unir.exampledfc.search.repository.CriticRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

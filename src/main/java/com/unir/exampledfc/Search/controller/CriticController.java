@@ -1,13 +1,15 @@
-package com.unir.exampledfc.Search.controller;
+package com.unir.exampledfc.search.controller;
 
-import com.unir.exampledfc.Search.entity.Critic;
-import com.unir.exampledfc.Search.service.CriticService;
+import com.unir.exampledfc.search.entity.Critic;
+import com.unir.exampledfc.search.service.CriticService;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
+@Tag(name = "Critic Controller", description = "Critic Controller Endpoints")
 @RequestMapping("/critic")
 public class CriticController {
     private final CriticService criticService;

@@ -1,4 +1,4 @@
-package com.unir.exampledfc.Search.dto;
+package com.unir.exampledfc.search.dto;
 
 
 import lombok.AllArgsConstructor;
